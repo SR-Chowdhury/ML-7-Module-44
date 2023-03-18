@@ -41,3 +41,17 @@ bool = !bool;
 console.log(bool); // false
 
 
+// Object shorthand 
+
+const a = 5;
+const b = 10;
+
+const obj1 = {
+    a: a,
+    b: b
+}
+
+// Or shotrhand
+
+const obj2 = {a, b};
+console.log(obj2.a, obj2.b); // 5 10
